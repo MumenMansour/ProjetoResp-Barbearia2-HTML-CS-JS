@@ -318,3 +318,11 @@ nav.show div.icon-close {
 #services .card img {
     width: 100px;
 }
+
+.cards.grid{
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 3.5rem 2rem;
+}
