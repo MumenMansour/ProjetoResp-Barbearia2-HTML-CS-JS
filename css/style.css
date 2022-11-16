@@ -315,3 +315,6 @@ nav.show div.icon-close {
     position: relative;
 }
 
+#services .card img {
+    width: 100px;
+}
