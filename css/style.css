@@ -20,6 +20,7 @@ ul {
 
 /*====  VARIAVEIS ============================ */
 
+
 :root {
     --header-height: 4.5rem;
 
@@ -30,9 +31,9 @@ ul {
     --base-color-second: hsl(var(--hue) 100% 35%);
     --base-color-alt: hsl(var(--hue) 57% 53%);
     --title-color: hsl(var(--hue) 41% 10%);
-    --text-color: hsl(0 0% 46%);
-    --text-color-light: hsl(0 0% 98%);
-    --body-color: hsl(0 0% 98%);
+    --text-color: rgb(2, 2, 2);
+    --text-color-light: rgb(56, 190, 79);
+    --body-color: rgb(255, 255, 255);
 
     /* HSL color mode */
     --title-font-size: 1.875rem;
@@ -247,15 +248,70 @@ nav.show div.icon-close {
     opacity: 1;
     top: 1.5rem;
 }
- #home .container{
+#home{
+    overflow: hidden;
+}
+#home .container {
     margin: o;
- }
- #home .image {
+}
+
+#home .image {
     position: relative;
- }
- #home .image :: before {
+}
+
+#home .image ::before {
     content: "";
     height: 100%;
     width: 100%;
     background: var(--base-color-alt);
- }
+    position: absolute;
+    top: -16.8%;
+    left: 16.7%;
+    z-index: 0;
+}
+
+#home .image img {
+    position: relative;
+    right: 2.93rem;
+}
+
+#home .image img,
+#home .image ::before {
+    border-radius: 0.25rem;
+}
+
+
+#home .text {
+    margin-inline: 1.5 rem;
+    text-align: center;
+}
+#home .text h1{
+    margin-bottom: 1rem;
+}
+#home .text p {
+    margin-bottom: 2rem;
+}
+
+#about .container{
+    margin: 0;
+}
+#about .image{
+    position: relative;
+}
+
+
+#about .image ::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: var(--base-color-alt);
+    position: absolute;
+    top: 8.3%;
+    left: -33%;
+    z-index: 0;
+}
+
+#about .image img {
+    position: relative;
+}
+
