@@ -76,6 +76,10 @@ body {
     background: var(--base-color-alt);
 }
 
+.button img{
+    width: unset;   
+    margin-right: 15px;
+}
 .divider-1 {
     height: 1px;
     background: linear-gradient(270deg,
