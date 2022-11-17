@@ -393,3 +393,7 @@ nav.show div.icon-close {
     clip-path: circle();
     margin-right: 0.5rem;
 }
+
+#contato .links img{
+    width: unset;
+}
